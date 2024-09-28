@@ -77,6 +77,11 @@ video {
     cursor: pointer;
     transition: .3s ease;
 }
+
+/* When the dash icon is hovered */
+.dash:hover .dropdown-menu {
+    display: block;
+}
 .btn:hover{
     background: rgba(255, 255, 255, 0.3);
 }
